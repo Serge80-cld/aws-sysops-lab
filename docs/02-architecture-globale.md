@@ -3,7 +3,7 @@
 Cette section présente la vision d’ensemble de l’architecture AWS mise en place dans ce projet.  
 L’objectif est de construire une plateforme Cloud **scalable**, **sécurisée**, **automatisée** et **observée**, en suivant les bonnes pratiques AWS Well‑Architected.
 
-## 🔷 Composants principaux
+## Composants principaux
 
 ### 1. Réseau (VPC)
 - VPC multi‑AZ
@@ -35,7 +35,7 @@ L’objectif est de construire une plateforme Cloud **scalable**, **sécurisée*
 - VPC Flow Logs
 - ALB Access Logs
 
-## 🔷 Objectif de cette architecture
+## Objectif de cette architecture
 
 Créer une infrastructure :
 - **résiliente** (multi‑AZ)
