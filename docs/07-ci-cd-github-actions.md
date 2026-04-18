@@ -6,7 +6,7 @@ L’objectif est d’obtenir un pipeline **fiable**, **sécurisé**, **reproduct
 
 ---
 
-## 🔷 1. Structure générale du pipeline
+## 1. Structure générale du pipeline
 
 Le pipeline GitHub Actions suit les étapes suivantes :
 
@@ -29,7 +29,7 @@ Ce pipeline permet d’assurer une livraison continue et contrôlée.
 
 ---
 
-## 🔷 2. Déclencheurs (Triggers)
+## 2. Déclencheurs (Triggers)
 
 Le pipeline se déclenche automatiquement :
 
@@ -42,7 +42,7 @@ Garantir que chaque modification est testée, analysée et déployée proprement
 
 ---
 
-## 🔷 3. Authentification AWS
+## 3. Authentification AWS
 
 L’authentification est réalisée via :
 
@@ -57,7 +57,7 @@ Avantages :
 
 ---
 
-## 🔷 4. Étapes Terraform
+## 4. Étapes Terraform
 
 Le pipeline exécute :
 
@@ -74,7 +74,7 @@ Objectifs :
 
 ---
 
-## 🔷 5. Sécurité du pipeline
+## 5. Sécurité du pipeline
 
 - Secrets GitHub protégés
 - Permissions GitHub Actions minimales
@@ -84,7 +84,7 @@ Objectifs :
 
 ---
 
-## 🔷 6. Objectif du design
+## 6. Objectif du design
 
 Ce pipeline CI/CD permet :
 
