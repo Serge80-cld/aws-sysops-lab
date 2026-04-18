@@ -3,7 +3,7 @@
 La sécurité est un pilier fondamental de l’architecture AWS.  
 Cette section décrit les services et mécanismes mis en place pour garantir une posture de sécurité robuste, conforme aux bonnes pratiques AWS Well‑Architected.
 
-## 🔷 1. IAM (Identity and Access Management)
+## 1. IAM (Identity and Access Management)
 
 Principes appliqués :
 - **Least Privilege** : permissions minimales
@@ -17,7 +17,7 @@ Empêcher toute escalade de privilèges et limiter l’impact d’un compte comp
 
 ---
 
-## 🔷 2. CloudTrail
+## 2. CloudTrail
 
 CloudTrail est activé pour :
 - Suivre toutes les actions API
@@ -31,7 +31,7 @@ Assurer une traçabilité complète des actions dans le compte AWS.
 
 ---
 
-## 🔷 3. AWS Config
+## 3. AWS Config
 
 AWS Config permet :
 - De vérifier la conformité des ressources
@@ -43,7 +43,7 @@ Garantir que l’infrastructure reste conforme aux standards de sécurité.
 
 ---
 
-## 🔷 4. GuardDuty
+## 4. GuardDuty
 
 GuardDuty analyse :
 - Les logs CloudTrail
@@ -60,7 +60,7 @@ Détection proactive des menaces.
 
 ---
 
-## 🔷 5. KMS (Key Management Service)
+## 5. KMS (Key Management Service)
 
 KMS est utilisé pour :
 - Chiffrer les données au repos (EBS, S3, logs)
@@ -72,7 +72,7 @@ Protéger les données sensibles et respecter les exigences de conformité.
 
 ---
 
-## 🔷 6. Sécurité réseau
+## 6. Sécurité réseau
 
 - Instances EC2 **non exposées** à Internet
 - ALB en frontal
@@ -85,7 +85,7 @@ Réduire la surface d’attaque et contrôler les flux.
 
 ---
 
-## 🔷 Conclusion
+## Conclusion
 
 Cette architecture applique une approche **Zero Trust**, combinant :
 - Contrôle d’accès strict
