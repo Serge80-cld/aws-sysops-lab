@@ -3,7 +3,7 @@
 Cette section détaille la conception du réseau AWS utilisé dans cette architecture.  
 Le VPC constitue la fondation de l’infrastructure et suit les bonnes pratiques AWS pour la sécurité, la haute disponibilité et la séparation des flux.
 
-## 🔷 Structure du VPC
+## Structure du VPC
 
 ### 1. VPC principal
 - CIDR : 10.0.0.0/16
@@ -34,14 +34,14 @@ Le VPC constitue la fondation de l’infrastructure et suit les bonnes pratiques
 - Route table privée → NAT Gateway
 - Isolation stricte entre les zones
 
-## 🔷 Sécurité réseau
+## Sécurité réseau
 
 - Aucun accès direct Internet vers les instances privées
 - ALB en frontal pour gérer le trafic entrant
 - Security Groups basés sur le principe du **Least Privilege**
 - NACLs optionnelles pour renforcer la segmentation
 
-## 🔷 Objectif du design
+## Objectif du design
 
 - Haute disponibilité (multi‑AZ)
 - Sécurité renforcée (instances privées)
