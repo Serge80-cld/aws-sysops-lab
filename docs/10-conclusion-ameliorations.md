@@ -5,7 +5,7 @@ Il illustre ma capacité à concevoir, déployer et documenter une infrastructur
 
 ---
 
-## 🔷 Ce que ce projet prouve
+## Ce que ce projet prouve
 
 ### 1. Maîtrise de l’architecture AWS
 - VPC multi‑AZ
@@ -34,7 +34,7 @@ Il illustre ma capacité à concevoir, déployer et documenter une infrastructur
 
 ---
 
-## 🔷 Axes d’amélioration possibles
+## Axes d’amélioration possibles
 
 ### 1. Ajouter une couche conteneurs
 - ECR + ECS Fargate
@@ -61,7 +61,7 @@ Il illustre ma capacité à concevoir, déployer et documenter une infrastructur
 
 ---
 
-## 🔷 Conclusion générale
+## Conclusion générale
 
 Ce projet constitue une base solide pour un environnement Cloud moderne.  
 Il démontre une approche professionnelle, modulaire, sécurisée et automatisée — conforme aux attentes d’un poste d’Architecte Cloud / DevOps.
