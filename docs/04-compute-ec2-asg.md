@@ -3,7 +3,7 @@
 Cette section décrit la couche compute de l’architecture, responsable de l’exécution de l’application.  
 Elle repose sur un ensemble cohérent : **Launch Template → Auto Scaling Group → ALB**.
 
-## 🔷 1. Launch Template
+## 1. Launch Template
 
 Le Launch Template définit la configuration de base des instances EC2 :
 
@@ -19,7 +19,7 @@ Avantages :
 - Réutilisable dans plusieurs ASG
 - Standardisation des instances
 
-## 🔷 2. Auto Scaling Group (ASG)
+## 2. Auto Scaling Group (ASG)
 
 L’ASG gère automatiquement le nombre d’instances EC2 selon la charge.
 
@@ -35,7 +35,7 @@ Objectifs :
 - Scalabilité automatique
 - Résilience aux pannes AZ
 
-## 🔷 3. Application Load Balancer (ALB)
+## 3. Application Load Balancer (ALB)
 
 L’ALB distribue le trafic entrant vers les instances EC2.
 
@@ -51,14 +51,14 @@ Pourquoi ALB ?
 - Sécurité renforcée (instances non exposées)
 - Observabilité améliorée
 
-## 🔷 4. Flux réseau
+## 4. Flux réseau
 
 1. Le client envoie une requête vers l’ALB (subnets publics)
 2. L’ALB redirige vers le Target Group
 3. Le Target Group envoie vers les instances EC2 (subnets privés)
 4. Les instances sortent vers Internet via la NAT Gateway si nécessaire
 
-## 🔷 5. Objectif du design
+## 5. Objectif du design
 
 - Instances **non exposées** à Internet
 - Scalabilité automatique
