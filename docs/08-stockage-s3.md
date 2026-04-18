@@ -3,7 +3,7 @@
 Amazon S3 est utilisé dans cette architecture pour stocker des données critiques liées à l’infrastructure et à l’observabilité.  
 Ce service offre une durabilité de 99.999999999% et constitue un composant essentiel dans les environnements Cloud modernes.
 
-## 🔷 1. Cas d’usage dans ce projet
+## 1. Cas d’usage dans ce projet
 
 ### a) Logs CloudTrail
 - Stockage centralisé des journaux d’audit
@@ -22,7 +22,7 @@ Ce service offre une durabilité de 99.999999999% et constitue un composant esse
 
 ---
 
-## 🔷 2. Sécurité S3
+## 2. Sécurité S3
 
 Les bonnes pratiques suivantes sont appliquées :
 
@@ -37,7 +37,7 @@ Garantir un stockage sécurisé, conforme aux standards AWS.
 
 ---
 
-## 🔷 3. Organisation des buckets
+## 3. Organisation des buckets
 
 Exemples de buckets utilisés :
 
@@ -52,7 +52,7 @@ Chaque bucket a :
 
 ---
 
-## 🔷 4. Objectif du design
+## 4. Objectif du design
 
 - Centraliser les logs
 - Sécuriser les données sensibles
