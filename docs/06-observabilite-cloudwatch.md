@@ -3,7 +3,7 @@
 L’observabilité est essentielle pour comprendre le comportement de l’infrastructure, détecter les anomalies et optimiser les performances.  
 Cette section décrit les mécanismes mis en place pour assurer une visibilité complète sur l’architecture AWS.
 
-## 🔷 1. CloudWatch Logs
+## 1. CloudWatch Logs
 
 CloudWatch Logs est utilisé pour centraliser les journaux provenant de :
 
@@ -19,7 +19,7 @@ Objectifs :
 
 ---
 
-## 🔷 2. CloudWatch Metrics
+## 2. CloudWatch Metrics
 
 Les métriques permettent de suivre en temps réel :
 
@@ -37,7 +37,7 @@ Objectifs :
 
 ---
 
-## 🔷 3. CloudWatch Alarms
+## 3. CloudWatch Alarms
 
 Des alarmes sont configurées pour :
 
@@ -53,7 +53,7 @@ Objectifs :
 
 ---
 
-## 🔷 4. VPC Flow Logs
+## 4. VPC Flow Logs
 
 Les VPC Flow Logs permettent d’analyser :
 
@@ -68,7 +68,7 @@ Objectifs :
 
 ---
 
-## 🔷 5. Logs ALB (Access Logs)
+## 5. Logs ALB (Access Logs)
 
 Les logs ALB fournissent :
 
@@ -85,7 +85,7 @@ Objectifs :
 
 ---
 
-## 🔷 Conclusion
+## Conclusion
 
 L’observabilité repose sur trois piliers :
 
