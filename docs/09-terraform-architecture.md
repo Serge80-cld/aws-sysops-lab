@@ -5,7 +5,7 @@ Cette section décrit l’organisation du code, les modules, les bonnes pratique
 
 ---
 
-## 🔷 1. Structure du dossier Terraform
+## 1. Structure du dossier Terraform
 
 L’infrastructure est organisée selon une structure claire et modulaire :
 terraform/
@@ -32,7 +32,7 @@ Objectifs :
 
 ---
 
-## 🔷 2. Modules Terraform
+## 2. Modules Terraform
 
 Les modules permettent de structurer l’infrastructure en blocs cohérents.
 
@@ -68,7 +68,7 @@ Créer une architecture modulaire, réutilisable et conforme aux bonnes pratique
 
 ---
 
-## 🔷 3. Backend Terraform (S3 + DynamoDB)
+## 3. Backend Terraform (S3 + DynamoDB)
 
 Le backend distant permet :
 
@@ -85,7 +85,7 @@ Avantages :
 
 ---
 
-## 🔷 4. Bonnes pratiques appliquées
+## 4. Bonnes pratiques appliquées
 
 - Utilisation systématique des **tags**
 - Variables typées et documentées
@@ -98,7 +98,7 @@ Avantages :
 
 ---
 
-## 🔷 5. Objectif du design Terraform
+## 5. Objectif du design Terraform
 
 - Code propre et maintenable
 - Architecture modulaire
